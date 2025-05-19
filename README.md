@@ -9,30 +9,31 @@ Esse projeto verifica se um site utiliza os principais **HTTP Security Headers**
 ```bash
 git clone https://github.com/seu-usuario/web-security-header-scanner.git
 cd web-security-header-scanner
-
+```
 ### 2. Crie e ative um ambiente virtual
 
 Linux/Mac:
 ```bash
 python3 -m venv venv
 source venv/bin/activate
-
+```
 Windows:
 ```bash
 python -m venv venv
 venv\Scripts\activate
-
+```
 ### 3. Instale as dependências
 ```bash
 pip install -r requirements.txt
-
+```
 ### 4. Execute o scanner
 ```bash
 python scanner_headers.py
-
+```
 O programa pedirá para você digitar a URL de um site. Exemplo:
 ```less
 Digite a URL do site (ex: https://exemplo.com): https://google.com
+```
 
 ## 🛡️ Cabeçalhos Verificados
 - Content-Security-Policy
@@ -49,20 +50,22 @@ Digite a URL do site (ex: https://exemplo.com): https://google.com
 
 Esses headers são boas práticas recomendadas por organizações como OWASP para aumentar a segurança de aplicações web.
 
-### 📂 Estrutura do Projeto
+
+## 📂 Estrutura do Projeto
 ```bash
 web_security_header_scanner/
 ├── scanner_headers.py
 ├── requirements.txt
 └── README.md
+```
 
-### 🧰 Tecnologias
+## 🧰 Tecnologias
 
 - Python 3.x
 
 - requests
 
-### 🤝 Contribuindo
+## 🤝 Contribuindo
 Contribuições são bem-vindas!
 Você pode:
 
